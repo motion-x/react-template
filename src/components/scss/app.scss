@@ -1,0 +1,9 @@
+@import 'base';
+
+.app-main-container {
+	height: 100vh;
+	width: 100vw;
+
+	background-color: $secondaryColor;
+	color: $mainColor;
+}

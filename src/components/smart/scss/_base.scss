@@ -1,0 +1,7 @@
+$mainColor: black;
+$secondaryColor: white;
+
+@mixin allAroundShadow($size, $rad, $color) {
+	box-shadow: $size $size $rad $color, (-1 * $size) (-1 * $size) $rad $color,
+		$size (-1 * $size) $rad $color, (-1 * $size) $size $rad $color;
+}

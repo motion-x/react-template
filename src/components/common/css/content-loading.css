@@ -1,0 +1,21 @@
+.content-loading-container {
+  position: relative;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+}
+.content-loading-container img {
+  margin-top: calc(50vh - 50px);
+  display: inline-block;
+}
+.content-loading-container span {
+  display: block;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=content-loading.css.map */
